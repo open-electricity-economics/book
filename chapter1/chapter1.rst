@@ -71,7 +71,7 @@ We said earlier that electrical energy is more useful than other forms of energy
 **Electric power systems.** A complex network of interconnected electrical equipment and circuits is deployed to enable supply and use electricity and makes up the electric power system. The overall working of the system can be simplified as follows: electricity is produced at large power plants, transmitted over long distances over the transmission system and brought to the consumers through the distribution system. :ref:`my-figure2` provides a schematic view of such an electrical system. Historically, such a system emerged, as it was economical to build big power plants near the source of energy (coalmines, rivers etc.) and use transmission and distribution system to transfer the electricity produced to consumers.
 
 .. _my-figure2:
-.. figure:: oee_ch1_components_elec_sys.jpg
+.. figure:: oee_ch1_components_elec_sys.png
     :width: 945px 
     :align: left
     :height: 350px
@@ -125,7 +125,7 @@ The way the electricity industry is organized varies across the world and has ch
 **Market models.** :ref:`my-figure3` illustrates typical ways of organizing electricity markets. In Model 1 (Vertically integrated utility) a single utility operates generation, transmission and distribution (including retailing) business; the utility may be either a regulated private corporation or state-owned entity. In Model 2 (Integrated utility with single buyer), independent power producers are allowed to operate, which sell electricity to the utility. These typically long-term contracts are often called power purchase agreements (PPAs). The terms and conditions of PPAs in a single buyer market are often subject to regulation. In Model 3 (Wholesale competition) large consumers are allowed to buy electricity directly from generators, i.e. there is no single buyer anymore. The regulated utility continues to supply all smaller customers. In Model 4 (Wholesale and retail competition) all consumers can pick a supplier: large consumers will buy directly at the wholesale market while small consumers choose a retail sup-plier. Transmission and distribution remains regulated. There exist at least two flavors of Model 4, the American “central dispatch” model of an Independent System Operator that conducts security-constraint economic dispatch and the European “self-dispatch” model where wholesale market participants interact on power exchanges and through brokers.
 
 .. _my-figure3:
-.. figure:: oee_ch1_industry_models.jpg
+.. figure:: oee_ch1_industry_models.png
     :width: 945px 
     :align: left
     :height: 684px
