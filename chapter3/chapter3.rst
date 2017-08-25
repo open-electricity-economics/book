@@ -54,7 +54,9 @@ In general technologies with low carbon dioxide emissions are also the ones wher
 Most power stations are designed to run for 20 to 60 years (‘technical lifetime’). Thus even though fixed costs are incurred at the time of investment, for analytical purposes it make sense to translate the fixed costs incurred in annualized terms i.e. calculate the cost of constructing the station per each year of its technical life. This metric is known as Annualized Fixed Costs (AFC). AFC is calculated by converting fixed costs at the time of investment into an annuity using the following formula:
 
 .. math::
-    Annualized \ Fixed \ Costs \ (AFC) &= I \times  r \times \frac{(1+r)^Y} {(1+r)^Y-1)}
+	\begin{split} 
+		Annualized \ Fixed \ Costs \ (AFC) &= I \times  r \times \frac{(1+r)^Y} {(1+r)^Y-1)}
+	\end{split} 
 
 where I is the investment or fixed cost in EUR per kW, r is the discount rate and Y is the technical lifetime of the power plant in years. Thus AFC depends on the actual cost of setting up a plant and its expected technical lifetime, both of which are determined to a large extent by the engineering and manufacturing processes. The discount rate on the other hand is a financial concept.
 
@@ -85,7 +87,9 @@ While the distinction between fixed and variable cost of electricity is importan
 One cost metric that is frequently used for this purpose is the levelized cost of electricity (LCOE) or the levelized energy costs (LEC). This is defined as the aggregated discounted lifetime cost (fixed plus variable costs) of generating electricity per unit of output and is usually expressed in EUR per MWh. It is calculated using the following formula:
 
 .. math::
-    LCOE =  \frac {\sum_{y=1}^{Y} (1+r)^{-y} \times C_y} {\sum_{y=1}^{Y} (1+r)^{-y} \times G_y}
+	\begin{split} 
+		LCOE =  \frac {\sum_{y=1}^{Y} (1+r)^{-y} \times C_y} {\sum_{y=1}^{Y} (1+r)^{-y} \times G_y}
+	\end{split} 
 
 where G :sub:`y` is electricity generation in MWh, C :sub:`y` are aggregated fixed and variable costs for an year (in EUR per year), r is the discount rate and Y is the technical lifetime in years. The costs are called levelized because they are “leveled” over all the generation.
 
@@ -136,7 +140,9 @@ Power stations are sometimes categorized as *“base load plants”*, *“mid lo
 The FLH that a power plant runs during a year or the amount of electricity it generates is a determinant of the average cost of generating electricity from that power plant. We can restate the LCOE formula given in equation (3) as follows to see the relationship between the levelized cost of electricity and running hours:
 
 .. math::
-    LCOE &= \frac {C_fix+FLH \times C_var} {FLH}  &=  \frac {C_fix} {FLH} + C_var   
+	\begin{split} 
+		LCOE &= \frac {C_fix+FLH \times C_var} {FLH}  &=  \frac {C_fix} {FLH} + C_var   
+	\end{split} 
 
 where C :sub:`fix` is the annualized fixed cost in EUR per MW, C :sub:`var` is the variable cost in EUR per MWh and FLH is full load hours in MWh per MW. It is also evident from equation (4) that higher full load hours result in a lower LCOE because the same fixed or investment costs are distributed over more units of generation. The reduction in LCOE with FLH is also higher when variables costs are relatively low. The figure below shows the relationship between FLH and LCOE for power plants based on various technologies.
 
@@ -224,7 +230,9 @@ One of the consequences of a differentiated cost structure of power plants is th
 **Net Present Value.** Another way of assessing long-term profitability of a power plant is by calculating the Net Present Value (NPV) of the investment. The NPV of an investment (in a power plant) is calculated using the following formula:
 
 .. math::
-   Net Present Value \ (NPV) &= \sum_{y=1}^{Y} \frac {R_y-C_y} {(1+r)^{y}} - I                                          
+	\begin{split} 
+		Net Present Value \ (NPV) &= \sum_{y=1}^{Y} \frac {R_y-C_y} {(1+r)^{y}} - I                                          
+	\end{split} 
 
 where R :sub:`y` is total revenue in a certain year y (in EUR), C :sub:`y` is the variable cost (in EUR), I is the total investment or fixed cost (in EUR), r is the discount rate and Y is the number of years for which the power plant is expected run.
 
