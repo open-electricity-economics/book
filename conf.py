@@ -227,7 +227,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'open-electricity-economics.tex', 'open-electricity-economics Documentation',
+  (master_doc, 'open-electricity-economics.tex', 'Open Electricity Economics',
    'OEE authors', 'manual'),
 ]
 
